@@ -1,0 +1,46 @@
+- title: "home"
+  href: "/"
+
+- title: "characters"
+  href: "/characters/"
+
+- title: "archives"
+  href: "/a-fistful-of-lunars/"
+
+- title: "about"
+  href: "/about/"
+  
+- title: "documentation"
+  subcategories:
+    - subtitle: "basics"
+      subhref: "/documentation/basics.html"
+    - subtitle: "sass"
+      subhref: "/documentation/sass.html"
+    - subtitle: "grid"
+      subhref: "/documentation/grid.html"
+    - subtitle: "navigation"
+      subhref: "/documentation/nav.html"
+    - subtitle: "banner"
+      subhref: "/documentation/banner.html"
+    - subtitle: "sticky footer"
+      subhref: "/documentation/footer.html"
+    - subtitle: "rakefile"
+      subhref: "/documentation/rakefile.html"
+    - subtitle: "image_optim"
+      subhref: "/documentation/image-optim.html"
+    - subtitle: "installation"
+      subhref: "/documentation/installation.html"
+    - subtitle: "configuration"
+      subhref: "/documentation/configuration.html"
+    - subtitle: "deployment"
+      subhref: "/documentation/deploy.html"
+      
+- title: "external"
+  external: "https://www.gumroad.com/shamsee"
+  
+- title: "store"
+  external-subcategories:
+    - subtitle: "Gumroad"
+      subhref: "https://www.gumroad.com/shamsee"
+    - subtitle: "Amazon"
+      subhref: "http://www.amazon.com/dp/B00NTC5CWM/?tag=bathelup-20"
