@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% unless page.content == '' %}
+  <p>{{ page.content }}</p>
+{% endunless %}
+
+<div class="blog-archives">
+  <div class="row">
+    {% for post in site.categories.[page.category] %}
+      {% if post.thumbnail %}
+	<div class="small-4 large-3 column center-text left">
+	  <a href="{{ site.baseurl }}{{ post.url }}">
+	    <figure>
+	      <img src="{{ site.baseurl }}{{ post.thumbnail }}" class="center"/><figcaption>{{ post.title }}</figcaption>
+	    </figure>
+	  </a>
+	</div>
+      {% endif %}
+    {% endfor %} 
+  </div>
+</div>
