@@ -9,3 +9,5 @@ facebook_image: /images/comics/a-fistful-of-lunars-page-1.jpg
 ---
 
 {% include figure.html src="a-fistful-of-lunars-page-5.jpg" alt="A Fistful of Lunars Page 5" %}
+
+Testing, testing, 123. What does text look like under an image?
