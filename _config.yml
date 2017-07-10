@@ -5,8 +5,8 @@ email:
 keywords: webcomic, comic
 description: > # this means to ignore newlines until "baseurl:"
   A webcomic theme for jekyll.
+sidebar: true
 
-page.sidebar: true
 baseurl: https://bettybundy.randideo.com
 url: / #Leave this, change the baseurl.
 
